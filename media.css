@@ -1,0 +1,127 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+  display: flex;
+  height: 150vh;
+}
+.info-column {
+  background-color: burlywood;
+  color: white;
+  width: 360px;
+  padding-top: 80px;
+}
+.info-column >hr {
+margin: 0px 20px;
+}
+.work-column {
+  background-color: rgb(149, 185, 185);
+  flex: 1;
+}
+.avatar-frame {
+  display: flex;
+  justify-content: content;
+}
+.avatar-frame > img {
+  width: 200px;
+  height: 240px;
+  border-radius: 120px;
+  object-fit: cover;
+}
+.info-session {
+  padding: 10px 20px;
+}
+.info-session .title{
+  font-size: 24px;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+.info-session .program {
+  font-size: 24px;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+.info-session .noidung {
+  font-size: 18px;
+  font-weight: 100;
+  margin-bottom: 20px;
+
+}
+.info-session .contact {
+  font-size: 24px;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+.work-column {
+  padding-top: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 80px;
+}
+.introduce-header {
+  display: flex;
+  justify-content: space-between;
+}
+.info{
+  flex: 1;
+}
+.info .name {
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  align-content: center;
+}
+.info .position {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+} 
+.detail {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 12px;
+}
+.detail .telle::before {
+  content:  "☯";
+  margin-right: 8px;
+}
+.detail .email::before {
+  content: "☯";
+  margin-right: 8px;
+}
+.detail .address::before {
+  content: "☯";
+  margin-right: 8px;
+}
+.work-session .title1{
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px
+}
+.work-item .item {
+  display: flex;
+  flex-direction: column;
+}
+.work-item .item {
+  display: flex;
+}
+.work-item .item .content::before {
+  content: "";
+  display: block;
+  width: 8px;
+  height: 8px;
+  background-color: #666;
+  border-radius: 4px;
+  position: absolute;
+  left: -5px;
+  top: 6px;
+}
+
+
+
